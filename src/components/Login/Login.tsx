@@ -99,7 +99,7 @@ export default function Login() {
         >
           <InputLabel
             htmlFor="input-with-icon-adornment"
-            sx={{ color: "  #0B0B45" }}
+            sx={{ color: "#0B0B45" }}
           >
             Password
           </InputLabel>
