@@ -15,7 +15,7 @@ import { useNavigate } from "react-router-dom"
 
 export default function Login() {
   const navigate = useNavigate()
-  const [showPassword, setShowPassword] = React.useState(false)
+  const [showPassword, setShowPassword] = React.useState(true)
 
   const handleClickShowPassword = () => setShowPassword((show) => !show)
   const handleMouseDownPassword = (

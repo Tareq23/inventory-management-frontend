@@ -1,9 +1,12 @@
 /* eslint-disable prettier/prettier */
 import React from 'react'
+import Sidebar from '../Sidebar/Sidebar'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <>
+    <Sidebar/>
+    </>
   )
 }
 
